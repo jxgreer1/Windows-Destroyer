@@ -1,8 +1,8 @@
 #
 # You may think you know what the following code does.
 # But you dont. Trust me.
-# Fiddle with it, and youll spend many a sleepless
-# night cursing the moment you thought youd be clever
+# Fiddle with it, and youll spend many a sleepless night 
+# cursing the moment you thought youd be clever
 # enough to "optimize" the code below.
 # Now close this file and go play with something else.
 
@@ -20,7 +20,7 @@ print("before ", is_root())
 elevate()
 print("after ", is_root())
 
-if random.randint(0, 6) == 1:
+if random.randint(0, 6) == 4:
 #int getRandomNumber()
 #{
 #Return 4  chosen by fair dice roll.
